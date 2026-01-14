@@ -20,17 +20,18 @@ This project uses the Spotify API to extract a user’s listening history and pr
 
 🕰️(v)Top listening era (e.g., 2010s, 2020s)
 
+
 💻 Tech Stack
 
-1.Python: For API calls, data processing, and building the dashboard 🐍
+1.Python 🐍 – API calls, data processing, dashboard logic
 
-2.Spotify API: Extracts user listening data, including tracks, artists, genres, and play history 🎧
+2.Spotify API 🎧 – Extracts tracks, artists, genres, and play history
 
-3.Snowflake: Stores the Spotify data in a secure cloud data warehouse ❄️
+3.Snowflake ❄️ – Stores user data in a cloud data warehouse
 
-4.SQL: Performs data transformations, aggregations, and analysis 📝
+4.SQL 📝 – Aggregates and analyzes listening patterns
 
-5.Streamlit: Displays the data in a modern, interactive dashboard 📊
+5.Streamlit 📊 – Renders the data in a modern, interactive dashboard
 
 🏗 Architecture
 
