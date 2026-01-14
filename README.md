@@ -1,5 +1,5 @@
 🎧 Spotify Wrapped Dashboard (2025)
-Overview
+
 This project uses the Spotify API to extract a user’s listening history and preferences, similar to Spotify Wrapped. The data is then pushed into a Snowflake database where SQL queries are used to analyze listening patterns. Finally, a Streamlit dashboard presents a personalized, interactive visualization of the user’s top artists, songs, genres, and listening habits.It’s designed to provide a fun, data-driven snapshot of your music taste.
 
 Features
