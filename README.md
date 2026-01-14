@@ -11,9 +11,13 @@ This project uses the Spotify API to extract a user’s listening history and pr
 📊 3.Listening Metrics:
 
 📅(i) Most active listening day
+
 ⏱️ (ii)Longest listening time in a single day
+
 🔥(iii) Longest listening streak (days)
+
 🗓️ (iv) Year with the most songs listened to
+
 🕰️(v)Top listening era (e.g., 2010s, 2020s)
 
 💻 Tech Stack
