@@ -5,17 +5,19 @@ import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine
 import snowflake.connector
+import os
+from dotenv import load_dotenv
 
-# Page config
-st.set_page_config(page_title="Spotify Wrapped 2025", layout="wide")
+# Load environment variables from .env file
+load_dotenv()
 
-# Snowflake credentials
-USER = "NATIYER2003"
-PASSWORD = "n1rtanaI*19042003"
-ACCOUNT = "PRIKGQP-CZ71536" 
-WAREHOUSE = "COMPUTE_WH"
-DATABASE = "SNOWFLAKE_LEARNING_DB"
-SCHEMA = "SPOTIFY_MY_DATA"
+#Get the snowflake credentials from the .env file 
+USER = os.getenv("USER")
+PASSWORD = os.getenv("PASSWORD")
+ACCOUNT = os.getenv("ACCOUNT")
+WAREHOUSE = os.getenv("WAREHOUSE")
+DATABASE = os.getenv("DATABASE")
+SCHEMA = os.getenv("SCHEMA")
 
 # Snowflake connection & engine
 conn = snowflake.connector.connect(
@@ -33,6 +35,9 @@ engine = create_engine(
 
 def run_query(sql):
     return pd.read_sql(sql, engine)
+
+# Page config
+st.set_page_config(page_title="Spotify Wrapped 2025", layout="wide")
 
 # Title
 st.title("🎧 Spotify Wrapped 2025")
