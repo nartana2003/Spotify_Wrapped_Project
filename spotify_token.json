@@ -1,0 +1,7 @@
+{
+    "access_token": "BQAoamywTPX0a3Tux0Ct0Gwwu4mVoPo3iE6s-BCN4ea1xYtLdNKuIePaLJGFT5qba9fJazuCNogz1Mn7Qp0ZeN8UWMtghfb4J9U24hUtiaevYRo1PnOuTyi4CjG-gtf7mgUCh9fwNpbjvWnS6txSlV5oEcZGnT7eTGnaFF6I-Y06OxF2UVQPG0MZQ3uusdn0orcAeCCCMOkLv-nL2q1_T4nioUlEoQ_SM1i5NczrtHdKXsSe9GNY-TacgVEp99IClJ-FCI9axWMX5uSVXHdvCXO4ucAACAVI",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private user-library-read user-follow-read user-read-recently-played user-top-read",
+    "refresh_token": "AQBvFG_3ZJOunNCSqja7fQ8VD-cl9_De1gbEGOHYTd7oFQFqWteaC0LsVU2ZzqmpVEcaCMlVUzKfB7jwnsL0MyL-KzoaspHRUKNLjc63P21BpWYkYBn8NhTCxWqHTabqP5A"
+}
